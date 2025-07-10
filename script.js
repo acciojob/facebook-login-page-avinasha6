@@ -14,5 +14,5 @@ function handleLogin(event) {
 
 function redirectToRegister() {
   // Redirect to registration page (replace with actual link)
-  window.location.href = 'index.html';
+  window.location.href = 'register.html';
 }
