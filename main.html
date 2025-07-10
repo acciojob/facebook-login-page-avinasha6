@@ -8,6 +8,22 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="container">
+    <div class="left-section">
+      <h1 class="logo">facebook</h1>
+      <p class="tagline">Connect with friends and the world around you on Facebook.</p>
+    </div>
+    <div class="right-section">
+      <form class="login-form" onsubmit="handleLogin(event)">
+        <input type="text" id="email" placeholder="Email address or phone number" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <button type="submit" class="login-btn">Log In</button>
+        <a href="#" class="forgot-link">Forgotten account?</a>
+        <hr />
+        <button type="button" class="create-btn" onclick="redirectToRegister()">Create new account</button>
+      </form>
+    </div>
+  </div>
     <script type="text/javascript" src="./script.js">
 </script>
 
